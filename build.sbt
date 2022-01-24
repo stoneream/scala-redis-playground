@@ -6,9 +6,9 @@ ThisBuild / organization     := "com.github.ishikawawawa"
 
 lazy val root = (project in file("."))
   .settings(
-    name := "scala-template",
+    name := "scala-redis-playground",
     libraryDependencies ++= Seq(
-      "com.github.nscala-time" %% "nscala-time" % "2.30.0",
+      "net.debasishg" %% "redisclient" % "3.41",
       "org.scalatest" %% "scalatest" % "3.2.8"
     )
   )
